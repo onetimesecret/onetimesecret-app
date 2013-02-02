@@ -1,0 +1,10 @@
+
+
+## Commands
+
+$ ./cordova run
+
+$ ./cordova/log           # <-- cool
+
+$ cd assets/www
+$ thin -A file start

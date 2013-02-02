@@ -1,0 +1,69 @@
+body {
+  font-family: georgia,serif;
+}
+
+button {
+  font-family: georgia,serif;
+}
+
+#banner {
+  width: 100%;
+  background-color: #ff0;
+  margin: 0px;
+  padding: 0px;
+  border-bottom: 4px solid red;
+}
+#footer {
+  margin-top: 20px;
+  font-size: 85%;
+  color: #999;
+}
+#footer a {
+  color: #999;
+}
+
+/* Centering via http://jsfiddle.net/chriscoyier/hJtpF/ */
+.block {          /* This parent can be any width and height */
+  text-align: center;
+}
+.block:before {   /* The ghost, nudged to maintain perfect centering */
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em; /* Adjusts for spacing */
+}
+.centered {       /* The element to be centered, can also be of any width and height */
+  display: inline-block;
+  vertical-align: middle;
+  width: 300px;
+}
+
+.lighter {
+  color: #999;
+}
+.smaller {
+  font-size: 90%;
+}
+
+
+
+
+/* PAGE-SPECIFIC */
+
+
+#showMetadata label {
+  padding: 0px; margin: 0px;
+  font-size: 125%;
+}
+
+#showMetadata .secret-uri {
+  border: 0px;
+  background-color: #ff0;
+}
+
+
+
+
+
+
