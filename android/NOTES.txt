@@ -5,6 +5,9 @@
 ## Run on device
 $ ./cordova run
 
+## Run IOS emulator (requires https://github.com/phonegap/ios-sim)
+$ ./cordova/emulate
+
 ## Realtime logging (from device)
 $ ./cordova/log           # <-- cool
 
