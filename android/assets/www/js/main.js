@@ -20,7 +20,7 @@ var app = {
           $.ajax({
             type: 'POST',
             url: url,
-            data: {'secret':secret,'ttl':ttl},
+            data: {'secret':secret,'ttl':ttl,src:'app'},
             dataType: 'json',
             success: function(res) {
               var key = res['secret_key']
