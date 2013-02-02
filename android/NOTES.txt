@@ -1,10 +1,18 @@
 
 
-## Commands
+# Commands
 
+## Run on device
 $ ./cordova run
 
+## Realtime logging (from device)
 $ ./cordova/log           # <-- cool
 
+## Serve static files
 $ cd assets/www
 $ thin -A file start
+
+## Install directly via Android SDK
+## (see: http://developer.android.com/tools/help/adb.html#move)
+$ adb install android/bin/OneTimeSecret-release-unsigned.apk
+

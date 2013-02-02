@@ -17,13 +17,13 @@
        under the License.
  */
 
-package com.OneTimeSecret.OneTimeChat;
+package com.onetimesecret.OneTimeSecret;
 
 import android.app.Activity;
 import android.os.Bundle;
 import org.apache.cordova.*;
 
-public class OneTimeChat extends DroidGap
+public class OneTimeSecret extends DroidGap
 {
     @Override
     public void onCreate(Bundle savedInstanceState)

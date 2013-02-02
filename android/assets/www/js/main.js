@@ -24,7 +24,7 @@ var app = {
             dataType: 'json',
             success: function(res) {
               var key = res['secret_key']
-              var secret_ttl = parseInt(res['secret_ttl'] / (3600*24))
+              var secret_ttl = parseInt(res['ttl'] / (3600*24)) // ttl is always a whole number
               var secret_uri = app.createSecretURI(key)
               $("#createSecret").hide();
               $("#showMetadata").show();
