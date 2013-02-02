@@ -16,5 +16,7 @@ adhoc/
 *.mode2v3
 
 build/
+android/gen
+android/bin
 
 xcuserdata

@@ -9,6 +9,9 @@ var app = {
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
       document.addEventListener('deviceready', this.onDeviceReady, false);
+      $("#createSecret button").on("click",function(e) {
+        window.location.reload;
+      });
       $("#createSecret").on("submit",function(e) {
         var secret = $("#createSecret textarea").val();
         if ("" == secret) {
